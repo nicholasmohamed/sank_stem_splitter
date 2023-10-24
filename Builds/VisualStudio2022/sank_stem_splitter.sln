@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sank_stem_splitter - Standalone Plugin", "sank_stem_splitter_StandalonePlugin.vcxproj", "{8C193B53-D2B1-C276-083B-366BCAA7489E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C78C19D2-25DF-6299-85F5-E92BCDE4DEE1} = {C78C19D2-25DF-6299-85F5-E92BCDE4DEE1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sank_stem_splitter - VST3", "sank_stem_splitter_VST3.vcxproj", "{4C08800A-353E-DE82-30DA-0E0E018F90F9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C78C19D2-25DF-6299-85F5-E92BCDE4DEE1} = {C78C19D2-25DF-6299-85F5-E92BCDE4DEE1}
+		{8C5D1A30-BA68-CF51-A208-14B4B6295ACA} = {8C5D1A30-BA68-CF51-A208-14B4B6295ACA}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sank_stem_splitter - Shared Code", "sank_stem_splitter_SharedCode.vcxproj", "{C78C19D2-25DF-6299-85F5-E92BCDE4DEE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sank_stem_splitter - VST3 Manifest Helper", "sank_stem_splitter_VST3ManifestHelper.vcxproj", "{8C5D1A30-BA68-CF51-A208-14B4B6295ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C08800A-353E-DE82-30DA-0E0E018F90F9}.Debug|x64.ActiveCfg = Debug|x64
+		{4C08800A-353E-DE82-30DA-0E0E018F90F9}.Debug|x64.Build.0 = Debug|x64
+		{4C08800A-353E-DE82-30DA-0E0E018F90F9}.Release|x64.ActiveCfg = Release|x64
+		{4C08800A-353E-DE82-30DA-0E0E018F90F9}.Release|x64.Build.0 = Release|x64
+		{8C193B53-D2B1-C276-083B-366BCAA7489E}.Debug|x64.ActiveCfg = Debug|x64
+		{8C193B53-D2B1-C276-083B-366BCAA7489E}.Debug|x64.Build.0 = Debug|x64
+		{8C193B53-D2B1-C276-083B-366BCAA7489E}.Release|x64.ActiveCfg = Release|x64
+		{8C193B53-D2B1-C276-083B-366BCAA7489E}.Release|x64.Build.0 = Release|x64
+		{C78C19D2-25DF-6299-85F5-E92BCDE4DEE1}.Debug|x64.ActiveCfg = Debug|x64
+		{C78C19D2-25DF-6299-85F5-E92BCDE4DEE1}.Debug|x64.Build.0 = Debug|x64
+		{C78C19D2-25DF-6299-85F5-E92BCDE4DEE1}.Release|x64.ActiveCfg = Release|x64
+		{C78C19D2-25DF-6299-85F5-E92BCDE4DEE1}.Release|x64.Build.0 = Release|x64
+		{8C5D1A30-BA68-CF51-A208-14B4B6295ACA}.Debug|x64.ActiveCfg = Debug|x64
+		{8C5D1A30-BA68-CF51-A208-14B4B6295ACA}.Debug|x64.Build.0 = Debug|x64
+		{8C5D1A30-BA68-CF51-A208-14B4B6295ACA}.Release|x64.ActiveCfg = Release|x64
+		{8C5D1A30-BA68-CF51-A208-14B4B6295ACA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
